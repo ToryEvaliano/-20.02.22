@@ -7,3 +7,13 @@ for (int count = 0; count < 5; count++)
     Console.Write(" ");
 }
 Console.WriteLine(" ");
+
+for (int count = 0; count < 5; count++)
+{
+    if (arrayString[count].Length <= 3)
+        {
+            Console.Write(arrayString[count]);
+            Console.Write(" ");
+        }
+}
+Console.WriteLine(" ");
